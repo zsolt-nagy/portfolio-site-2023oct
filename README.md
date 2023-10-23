@@ -27,4 +27,6 @@ AS A software developer
 HOMEWORK for next time
 ```
 
+## Inspiration 
 
+https://startbootstrap.com/previews/freelancer 
