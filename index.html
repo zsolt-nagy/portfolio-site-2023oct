@@ -25,53 +25,55 @@
             </nav>
         </header>
         <main>
-            <section class="profile bg-dark">
+            <section class="main-section profile bg-dark">
                 <img src="https://place-hold.it/300" alt="Will Butler's profile photo." class="profile-image" />
                 <h2 class="profile-heading">Software Engineer</h2>
                 <p class="profile-tagline">JavaScript, TypeScript, React, node.js, Python, Django, CSS, SASS</p>
             </section>
-            <section class="introduction">
+            <section class="main-section introduction">
                 <h2>Introduction</h2>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum assumenda adipisci cum, minus
                     accusantium est nobis fugiat mollitia illo fugit esse dolorem cumque aliquid repudiandae.
                 </p>
             </section>
-            <section class="skills">
+            <section class="main-section skills">
                 <h2>Skills</h2>
-                <section>
-                    <h3>Frontend Development</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>SASS</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>React</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Backend Development</h3>
-                    <ul>
-                        <li>node.js</li>
-                        <li>Express</li>
-                        <li>Django</li>
-                        <li>SQL</li>
-                        <li>mongo.db</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Software Engineering</h3>
-                    <ul>
-                        <li>Unit Testing (Jest, Testing Library)</li>
-                        <li>CSS Architecture</li>
-                        <li>UML</li>
-                        <li>Algorithms</li>
-                        <li>Data Structures</li>
-                    </ul>
-                </section>
+                <div class="skill-card-container">
+                    <section class="skill-card">
+                        <h3>Frontend Development</h3>
+                        <ul class="skill-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>SASS</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>React</li>
+                        </ul>
+                    </section>
+                    <section class="skill-card">
+                        <h3>Backend Development</h3>
+                        <ul class="skill-list">
+                            <li>node.js</li>
+                            <li>Express</li>
+                            <li>Django</li>
+                            <li>SQL</li>
+                            <li>mongo.db</li>
+                        </ul>
+                    </section>
+                    <section class="skill-card">
+                        <h3>Software Engineering</h3>
+                        <ul class="skill-list">
+                            <li>Unit Testing (Jest, Testing Library)</li>
+                            <li>CSS Architecture</li>
+                            <li>UML</li>
+                            <li>Algorithms</li>
+                            <li>Data Structures</li>
+                        </ul>
+                    </section>
+                </div>
             </section>
-            <section class="recent-work bg-dark">
+            <section class="main-section recent-work bg-dark">
                 <h2>My Recent Work</h2>
                 <ul>
                     <li>
@@ -88,7 +90,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="contact">
+            <section class="main-section contact">
                 <form action="#" method="GET">
                     <div class="form-row">
                         <label for="email-field">Email:</label>
