@@ -1,3 +1,33 @@
+:root {
+    --alternate-background: #87CEEB;
+    --primary-accent: #D5A220;
+    --hover-primary-accent: #E5B230;
+    --primary-font: #333333;
+    --primary-background: whitesmoke;
+    --header-footer-background: #333333;
+    --header-footer-font: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-font);
+    background-color: var(--primary-background);
+}
+
+header, footer {
+    color: var(--primary-accent);
+    background-color: var(--header-footer-background);
+}
+
+a {
+    color: var(--primary-accent);
+}
+
+a:hover {
+    color: var(--hover-primary-accent);
 }
