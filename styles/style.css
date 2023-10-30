@@ -43,6 +43,20 @@ body {
     letter-spacing: 1px;
 }
 
+.page-footer {
+    padding: 2rem 1.5rem;
+}
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.footer-link-item {
+    margin: 0.5rem;
+}
+
 .page-menu-container {
     list-style-type: none;
     display: flex;
@@ -60,4 +74,27 @@ body {
 
 .page-menu-link:hover {
     color: var(--primary-accent);
+}
+
+/******************** main ************************/
+.bg-dark {
+    background-color: var(--alternate-background);
+}
+
+.profile {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+}
+
+.profile-image {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile-heading {
+    margin: 1rem;
+}
+
+.profile-tagline {
+    margin: 0.5rem;
 }
