@@ -106,16 +106,19 @@
                 </ul>
             </section>
             <section class="main-section contact" id="contact">
+                <h2>Contact</h2>
                 <form action="#" method="GET">
                     <div class="form-row">
                         <label for="email-field">Email:</label>
-                        <input type="email" id="email-field" name="email-field" placeholder="Email" />
+                        <input type="email" id="email-field" name="email-field" placeholder="Email" required />
                     </div>
                     <div class="form-row">
                         <label for="message-area">Message:</label>
-                        <textarea name="message-area" id="message-area"></textarea>
+                        <textarea name="message-area" id="message-area" required></textarea>
                     </div>
-                    <button type="submit">Send</button>
+                    <div class="form-row no-stretch">
+                        <button type="submit" class="send-button">Send</button>
+                    </div>
                 </form>
             </section>
         </main>
