@@ -47,6 +47,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-font);
     background-color: var(--primary-background);
+    min-width: 350px;
 }
 
 label {
@@ -135,7 +136,7 @@ label {
 
 .skill-card {
     border: 5px double var(--primary-font);
-    padding: 1rem;
+    padding: 0.8rem;
     width: 250px;
     margin: 1rem 0;
 }
@@ -177,7 +178,7 @@ label {
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 60%;
 }
 
 .form-row.no-stretch {
@@ -198,4 +199,46 @@ label {
     color: var(--primary-font-hover);
     border-color: var(--alternate-background);
     background-color: var(--primary-background-hover);
+}
+
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+
+    input,
+    textarea {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skill-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+
+    .page-menu-container {
+        display: none;
+    }
+
+    .form-row {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer-links-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html {
+        font-size: 16px;
+    }
 }
