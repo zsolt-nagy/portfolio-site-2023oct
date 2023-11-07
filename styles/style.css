@@ -103,8 +103,8 @@ label {
 }
 
 /******************** main ************************/
-.bg-dark {
-    background-color: var(--alternate-background);
+.section-dark {
+    background-color: var(--alternate-background); 
 }
 
 .profile {
