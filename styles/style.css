@@ -102,6 +102,24 @@ label {
     color: var(--primary-accent);
 }
 
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: var(--header-footer-font);
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: var(--hover-primary-accent);
+}
+
+main {
+    margin-top: 55px; /* fixed-top navbar */ 
+}
+
 /******************** main ************************/
 .section-dark {
     background-color: var(--alternate-background); 
