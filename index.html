@@ -142,18 +142,22 @@
             </section>
             <section class="main-section contact" id="contact">
                 <h2>Contact</h2>
-                <form action="#" method="GET">
-                    <div class="form-row">
-                        <label for="email-field">Email:</label>
-                        <input type="email" id="email-field" name="email-field" placeholder="Email" required />
+                <form action="#" method="GET" class="col-12 offset-md-2 col-md-8 offset-xl-3 col-xl-6">
+                    <div class="mb-3">
+                        <label for="email-field" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email-field" name="email-field" />
                     </div>
-                    <div class="form-row">
-                        <label for="message-area">Message:</label>
-                        <textarea name="message-area" id="message-area" rows="4" required></textarea>
+                    <div class="mb-3">
+                        <label for="message-area" class="form-label">Message:</label>
+                        <textarea
+                            name="message-area"
+                            class="form-control"
+                            id="message-area"
+                            rows="4"
+                            required
+                        ></textarea>
                     </div>
-                    <div class="form-row no-stretch">
-                        <button type="submit" class="send-button">Send</button>
-                    </div>
+                    <button type="submit" class="btn btn-outline-success">Submit</button>
                 </form>
             </section>
         </main>
