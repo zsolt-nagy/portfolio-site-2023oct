@@ -55,18 +55,9 @@ label {
 }
 
 /* *************** HEADER and FOOTER ******************* */
-.page-header, .page-footer {
+.page-footer {
     color: var(--header-footer-font);
     background-color: var(--header-footer-background);
-}
-
-.page-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .page-footer {
@@ -80,16 +71,6 @@ label {
 }
 
 .footer-link-item {
-    margin: 0.5rem;
-}
-
-.page-menu-container {
-    list-style-type: none;
-    display: flex;
-    font-weight: 700;
-}
-
-.page-menu-item {
     margin: 0.5rem;
 }
 
@@ -153,18 +134,15 @@ main {
 }
 
 .skill-card {
-    border: 5px double var(--primary-font);
-    padding: 0.8rem;
-    width: 250px;
-    margin: 1rem 0;
+    width: 14rem;
+}
+
+.skill-list {
+    list-style: none;
 }
 
 .project-thumbnail-img {
     width: 100%;
-}
-
-.skill-list {
-    list-style-type: none;
 }
 
 .project-list {
